@@ -118,13 +118,13 @@ options:
   ```dvc
   $ dvc remote modify myremote region us-east-2
   ```
-  
+
 - `read_timeout` - change S3 read_timeout:
 
   ```dvc
   $ dvc remote modify myremote read_timeout 10000
   ```
-  
+
 - `connect_timeout` - change S3 connect_timeout:
 
   ```dvc
